@@ -1,0 +1,40 @@
+name: Sector 18 Data Extractor
+
+on:
+  schedule:
+    - cron: '*/20 * * * *' # Runs every 20 minutes to protect the 2,500 monthly limit
+  workflow_dispatch: # Allows manual testing
+
+jobs:
+  run-sec18:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Required Libraries
+        run: pip install pandas requests pytz
+
+      - name: Run Sector 18 Script
+        env:
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_SEC18 }}
+        run: |
+          cd sector-18
+          python traffic_script.py
+
+      - name: Commit and Save CSV Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sector-18/*.csv
+          git commit -m "Auto-update Sector 18 traffic data" || echo "No changes to commit"
+          git push
