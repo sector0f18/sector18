@@ -51,3 +51,5 @@ Timestamp,Location,Latitude,Longitude,Origin_Reference,Flow_Functional_Road_Clas
 2026-11-23 19:52:29,Location 2,28.5847,77.2917,Origin Location Name,FRC4,35,40,0.875,537,470,67,0.999152,False,169,3,Jam | Jam | Jam,Moderate | Major | Major,Queuing traffic | Stationary traffic,1496,4572.105,Yamuna Agricultural Area | Dadri Road | Noida Toll Bridge Road,D N D Flyover / Gazipur Road | Mahatma Gandhi Marg | Noida Link Road,None
 2026-11-23 21:12:15,Location 1,28.5672,77.3219,Origin Location Name,FRC3,38,38,1.0,882,882,0,1,False,278,1,Jam,Minor,Slow traffic,181,494.342,Captain Vijayant Thapar Marg,Maharaja Agrasen Marg,None
 2026-11-23 21:12:15,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,0,None,None,None,0,0.0,None,None,None
+2026-11-23 22:21:35,Location 1,28.5672,77.3219,Origin Location Name,FRC3,38,38,1.0,882,882,0,1.0,False,278,1,Jam,Moderate,Queuing traffic,212,522.888,Noida Toll Bridge Road / DSC Marg,Maharaja Agrasen Marg,None
+2026-11-23 22:21:35,Location 2,28.5847,77.2917,Origin Location Name,FRC4,34,40,0.85,553,470,83,0.997093,False,169,0,None,None,None,0,0.0,None,None,None
