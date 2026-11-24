@@ -79,3 +79,5 @@ Timestamp,Location,Latitude,Longitude,Origin_Reference,Flow_Functional_Road_Clas
 2026-11-24 10:57:46,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,0,None,None,None,0,0.0,None,None,None
 2026-11-24 12:01:21,Location 1,28.5672,77.3219,Origin Location Name,FRC3,38,38,1.0,882,882,0,1,False,278,2,Jam | Jam,Minor | Major,Stationary traffic | Slow traffic,738,2052.234,Gautam Buddha Expressway | Wild Road,Noida Toll Bridge Road | Wild Road,None
 2026-11-24 12:01:21,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,0,None,None,None,0,0.0,None,None,None
+2026-11-24 13:28:58,Location 1,28.5672,77.3219,Origin Location Name,FRC3,32,36,0.889,1048,931,117,1,False,278,3,Jam | Jam | Jam,Minor | Major | Major,Slow traffic | Stationary traffic,600,1738.435,Maharaja Agrasen Marg | Lieutenant Vijayant Thapar Marg | Dadri Road,Noida Toll Bridge Road | Maharaja Agrasen Marg | Sector 19 Road,None
+2026-11-24 13:28:58,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,1,Jam,Major,Stationary traffic,223,647.159,Dadri Road,D N D Flyover,None
