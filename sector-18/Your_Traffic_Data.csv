@@ -95,3 +95,5 @@ Timestamp,Location,Latitude,Longitude,Origin_Reference,Flow_Functional_Road_Clas
 2026-11-24 20:10:07,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1.0,False,169,1,Jam,Major,Stationary traffic,344,1130.68,Dadri Road,D N D Flyover,None
 2026-11-24 21:13:36,Location 1,28.5672,77.3219,Origin Location Name,FRC3,32,37,0.865,1048,906,142,0.999366,False,278,4,Jam | Jam | Jam | Jam,Major | Major | Minor | Major,Stationary traffic | Slow traffic,1265,1409.711,Lieutenant Vijayant Thapar Marg | Lieutenant Vijayant Thapar Marg | Maharaja Agrasen Marg | Dadri Road,Maharaja Agrasen Marg | Maharaja Agrasen Marg | Lieutenant Vijayant Thapar Marg | Sector 19 Road,None
 2026-11-24 21:13:36,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1.0,False,169,0,None,None,None,0,0.0,None,None,None
+2026-11-24 22:26:07,Location 1,28.5672,77.3219,Origin Location Name,FRC3,38,38,1.0,882,882,0,1,False,278,1,Jam,Moderate,Queuing traffic,131,462.558,Dadri Road,Sector 19 Road,None
+2026-11-24 22:26:07,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,0,None,None,None,0,0.0,None,None,None
