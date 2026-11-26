@@ -183,3 +183,5 @@ Timestamp,Location,Latitude,Longitude,Origin_Reference,Flow_Functional_Road_Clas
 2026-11-26 22:10:53,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,1,Jam,Major,Stationary traffic,108,291.534,Dadri Road,D N D Flyover,None
 2026-11-26 23:17:52,Location 1,28.5672,77.3219,Origin Location Name,FRC3,38,38,1.0,882,882,0,1.0,False,278,0,None,None,None,0,0.0,None,None,None
 2026-11-26 23:17:52,Location 2,28.5847,77.2917,Origin Location Name,FRC4,38,40,0.95,494,470,24,0.996413,False,169,2,Jam | Jam,Major | Minor,Stationary traffic | Slow traffic,732,1301.164,Dadri Road | Sadbhawana Marg,D N D Flyover | Dadri Road,None
+2026-11-27 00:15:54,Location 1,28.5672,77.3219,Origin Location Name,FRC3,38,38,1.0,882,882,0,1,False,278,0,None,None,None,0,0,None,None,None
+2026-11-27 00:15:54,Location 2,28.5847,77.2917,Origin Location Name,FRC4,40,40,1.0,470,470,0,1,False,169,0,None,None,None,0,0,None,None,None
